@@ -13,7 +13,7 @@ body:
     id: project
     attributes:
       label: Public-safe project description
-      placeholder: Describe the product, machine, or robot category under development without confidential customer information.
+      placeholder: "Describe the product, machine, or robot category under development without confidential customer information."
     validations:
       required: true
 
@@ -21,7 +21,7 @@ body:
     id: customization
     attributes:
       label: Required customization category
-      placeholder: Mechanical interface, shaft, encoder, driver, communication, firmware, branding, or other non-confidential requirement.
+      placeholder: "Mechanical interface, shaft, encoder, driver, communication, firmware, branding, or other non-confidential requirement."
     validations:
       required: true
 
@@ -29,26 +29,26 @@ body:
     id: specifications
     attributes:
       label: Non-confidential technical specifications
-      placeholder: Torque, speed, ratio, voltage, power, backlash, accuracy, lifetime, and operating conditions.
+      placeholder: "Torque, speed, ratio, voltage, power, backlash, accuracy, lifetime, and operating conditions."
 
   - type: input
     id: timeline
     attributes:
       label: Project timeline
-      placeholder: Prototype date and mass production target
+      placeholder: "Prototype date and mass production target"
 
   - type: input
     id: quantity
     attributes:
       label: Estimated quantity
-      placeholder: Sample quantity and annual demand
+      placeholder: "Sample quantity and annual demand"
 
   - type: textarea
     id: public_reference
     attributes:
       label: Public references
       description: Use public links or model references only. Send confidential drawings and documents through private communication.
-      placeholder: Public datasheet, product link, or non-confidential reference model.
+      placeholder: "Public datasheet, product link, or non-confidential reference model."
 
   - type: checkboxes
     id: privacy_confirmation
