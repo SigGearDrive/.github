@@ -1,5 +1,5 @@
 name: Customization Request
-description: Request custom reducer, actuator, motor, interface, or control solution.
+description: Request custom reducer, actuator, motor, interface, or control solutions using public-safe information.
 title: "[Customization Request] "
 body:
   - type: markdown
@@ -7,42 +7,53 @@ body:
       value: |
         SigGear supports drawing-based customization and application-specific robotic drive solutions.
 
+        **Privacy notice:** GitHub issues are public. Do not upload confidential drawings, customer information, private specifications, unreleased product details, or proprietary requirements. Use the [private request page](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/) for restricted materials.
+
   - type: textarea
     id: project
     attributes:
-      label: Project description
-      placeholder: Describe the product, machine, or robot under development.
+      label: Public-safe project description
+      placeholder: "Describe the product, machine, or robot category under development without confidential customer information."
     validations:
       required: true
 
   - type: textarea
     id: customization
     attributes:
-      label: Required customization
-      placeholder: Mechanical dimensions, mounting, shaft, encoder, driver, communication, firmware, or branding requirements.
+      label: Required customization category
+      placeholder: "Mechanical interface, shaft, encoder, driver, communication, firmware, branding, or other non-confidential requirement."
     validations:
       required: true
 
   - type: textarea
     id: specifications
     attributes:
-      label: Technical specifications
-      placeholder: Torque, speed, ratio, voltage, power, backlash, accuracy, lifetime, and operating conditions.
+      label: Non-confidential technical specifications
+      placeholder: "Torque, speed, ratio, voltage, power, backlash, accuracy, lifetime, and operating conditions."
 
   - type: input
     id: timeline
     attributes:
       label: Project timeline
-      placeholder: Prototype date and mass production target
+      placeholder: "Prototype date and mass production target"
 
   - type: input
     id: quantity
     attributes:
       label: Estimated quantity
-      placeholder: Sample quantity and annual demand
+      placeholder: "Sample quantity and annual demand"
 
-  - type: input
-    id: contact
+  - type: textarea
+    id: public_reference
     attributes:
-      label: Contact information
-      placeholder: Email or preferred contact method
+      label: Public references
+      description: Use public links or model references only. Send confidential drawings and documents through private communication.
+      placeholder: "Public datasheet, product link, or non-confidential reference model."
+
+  - type: checkboxes
+    id: privacy_confirmation
+    attributes:
+      label: Public information confirmation
+      options:
+        - label: I confirm that this issue contains no confidential files, private customer information, or restricted project details.
+          required: true

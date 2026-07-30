@@ -1,5 +1,5 @@
 name: Gearbox Selection Request
-description: Request help selecting a reducer or actuator based on application requirements.
+description: Request public guidance for selecting a reducer or actuator from non-confidential application requirements.
 title: "[Selection Request] "
 body:
   - type: markdown
@@ -7,36 +7,42 @@ body:
       value: |
         SigGear engineers can help match reducer type, ratio, torque, speed, and integration requirements.
 
+        **Privacy notice:** GitHub issues are public. Do not post customer names, private contact details, confidential drawings, proprietary dimensions, supplier quotations, passwords, or unreleased project information. For private files, samples, quotations, or confidential discussions, use the [private request page](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/).
+
   - type: textarea
     id: application
     attributes:
-      label: Application
-      placeholder: Describe your equipment or robot application.
+      label: Public-safe application description
+      description: Describe the equipment or robot application without identifying confidential customers or unreleased projects.
+      placeholder: "Example: humanoid knee joint, collaborative robot wrist, AGV wheel drive, medical pump, or robotic gripper."
     validations:
       required: true
 
   - type: textarea
     id: requirements
     attributes:
-      label: Main technical requirements
-      placeholder: Torque, speed, precision, backlash, dimensions, weight, noise, lifetime, and environment.
+      label: Main non-confidential technical requirements
+      placeholder: "Rated and peak torque, output speed, ratio, precision, backlash, maximum dimensions, weight, noise target, duty cycle, lifetime, and environment."
     validations:
       required: true
 
   - type: input
     id: quantity
     attributes:
-      label: Quantity
-      placeholder: Prototype quantity and expected production volume
+      label: Prototype and estimated production quantity
+      placeholder: "Example: 5 samples, then 500 units per year"
 
   - type: textarea
-    id: current_solution
+    id: public_reference
     attributes:
-      label: Current solution or reference product
-      placeholder: Existing supplier, competitor model, drawing, or datasheet if available.
+      label: Public reference product or public datasheet
+      description: Provide only publicly available model names or links. Do not upload supplier quotations, confidential drawings, or restricted files.
+      placeholder: "Public competitor model, public manufacturer page, or public datasheet link."
 
-  - type: input
-    id: contact
+  - type: checkboxes
+    id: privacy_confirmation
     attributes:
-      label: Contact information
-      placeholder: Email or preferred contact method
+      label: Public information confirmation
+      options:
+        - label: I confirm that this issue contains no confidential files, private contact details, or restricted project information.
+          required: true

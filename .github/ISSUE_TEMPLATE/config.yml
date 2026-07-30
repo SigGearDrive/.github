@@ -1,8 +1,8 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: SigGear Product Documentation
     url: https://siggeardrive.github.io/SigGear-product-docs/
     about: Check product specifications, selection guides, and application documents.
-  - name: Email SigGear Engineering
-    url: mailto:wangwanrong@siggear.com
-    about: Contact engineers for private drawings, datasheets, and customization discussions.
+  - name: Private CAD, Samples and Quote Request
+    url: https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/
+    about: Start a private email request for drawings, datasheets, samples, quotations, or confidential customization discussions.
