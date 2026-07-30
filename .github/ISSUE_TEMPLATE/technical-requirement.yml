@@ -7,7 +7,15 @@ body:
       value: |
         Thank you for contacting SigGear. Our engineers normally reply within 24 hours.
 
-        **Privacy notice:** GitHub issues are public. Do not post confidential drawings, customer names, private contact details, proprietary dimensions, passwords, or unreleased project information. For private files, samples, quotations, or confidential discussions, use the [private request page](https://siggeardrive.github.io/SigGear-product-docs/request-cad-sample-quote/).
+        **Privacy notice:** GitHub issues are public. Do not post confidential drawings, customer names, private contact details, proprietary dimensions, passwords, or unreleased project information. For private files, samples, quotations, or confidential discussions, use the private request page.
+
+  - type: checkboxes
+    id: privacy_confirmation
+    attributes:
+      label: Public information confirmation
+      options:
+        - label: I confirm that this issue contains no confidential files, private customer information, or restricted project details.
+          required: true
 
   - type: dropdown
     id: product_type
