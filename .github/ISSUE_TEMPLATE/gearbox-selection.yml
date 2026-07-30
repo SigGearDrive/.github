@@ -14,7 +14,7 @@ body:
     attributes:
       label: Public-safe application description
       description: Describe the equipment or robot application without identifying confidential customers or unreleased projects.
-      placeholder: Example: humanoid knee joint, collaborative robot wrist, AGV wheel drive, medical pump, or robotic gripper.
+      placeholder: "Example: humanoid knee joint, collaborative robot wrist, AGV wheel drive, medical pump, or robotic gripper."
     validations:
       required: true
 
@@ -22,7 +22,7 @@ body:
     id: requirements
     attributes:
       label: Main non-confidential technical requirements
-      placeholder: Rated and peak torque, output speed, ratio, precision, backlash, maximum dimensions, weight, noise target, duty cycle, lifetime, and environment.
+      placeholder: "Rated and peak torque, output speed, ratio, precision, backlash, maximum dimensions, weight, noise target, duty cycle, lifetime, and environment."
     validations:
       required: true
 
@@ -30,14 +30,14 @@ body:
     id: quantity
     attributes:
       label: Prototype and estimated production quantity
-      placeholder: Example: 5 samples, then 500 units per year
+      placeholder: "Example: 5 samples, then 500 units per year"
 
   - type: textarea
     id: public_reference
     attributes:
       label: Public reference product or public datasheet
       description: Provide only publicly available model names or links. Do not upload supplier quotations, confidential drawings, or restricted files.
-      placeholder: Public competitor model, public manufacturer page, or public datasheet link.
+      placeholder: "Public competitor model, public manufacturer page, or public datasheet link."
 
   - type: checkboxes
     id: privacy_confirmation
