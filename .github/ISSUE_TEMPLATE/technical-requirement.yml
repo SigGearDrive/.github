@@ -1,0 +1,96 @@
+name: Technical Requirement
+description: Ask a technical question about torque, speed, backlash, voltage, interfaces, control, or integration.
+title: "[Technical Requirement] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contacting SigGear. Please provide as much information as possible. Our engineers normally reply within 24 hours.
+
+  - type: dropdown
+    id: product_type
+    attributes:
+      label: Product type
+      options:
+        - Integrated robot joint actuator
+        - Cycloidal reducer
+        - Planetary gearbox
+        - Gear motor
+        - Motor and gearbox combination
+        - Not sure / need engineering recommendation
+    validations:
+      required: true
+
+  - type: textarea
+    id: application
+    attributes:
+      label: Application scenario
+      description: Describe the machine, robot, joint, axis, or mechanism where the product will be used.
+      placeholder: Example: humanoid robot knee joint, collaborative robot wrist, AGV wheel drive, medical pump, or robotic gripper.
+    validations:
+      required: true
+
+  - type: input
+    id: torque
+    attributes:
+      label: Required torque
+      description: Include rated and peak torque when available.
+      placeholder: Example: 20 Nm rated, 60 Nm peak
+    validations:
+      required: true
+
+  - type: input
+    id: speed
+    attributes:
+      label: Required output speed
+      placeholder: Example: 100 rpm rated, 150 rpm maximum
+    validations:
+      required: true
+
+  - type: input
+    id: voltage
+    attributes:
+      label: Voltage and power
+      placeholder: Example: 48 VDC, 500 W
+
+  - type: input
+    id: backlash
+    attributes:
+      label: Backlash requirement
+      placeholder: Example: less than 10 arcmin, less than 1 arcmin, or not specified
+
+  - type: input
+    id: dimensions
+    attributes:
+      label: Maximum dimensions and weight
+      placeholder: Example: OD <= 100 mm, length <= 55 mm, weight <= 1.5 kg
+
+  - type: textarea
+    id: interfaces
+    attributes:
+      label: Mechanical and electrical interfaces
+      placeholder: Mounting flange, shaft or hollow-bore size, encoder, brake, CAN, RS485, EtherCAT, PWM, or other requirements.
+
+  - type: textarea
+    id: operating_conditions
+    attributes:
+      label: Operating conditions
+      placeholder: Duty cycle, radial or axial load, shock load, temperature, noise target, service life, IP rating, or special environment.
+
+  - type: input
+    id: quantity
+    attributes:
+      label: Prototype and estimated production quantity
+      placeholder: Example: 5 samples, then 500 units per year
+
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Drawings, datasheets, or reference products
+      description: Attach files or paste links. Please remove confidential information that should not be public.
+
+  - type: textarea
+    id: other
+    attributes:
+      label: Additional requirements
+      placeholder: Target lead time, certification, customization, branding, or any other question.
