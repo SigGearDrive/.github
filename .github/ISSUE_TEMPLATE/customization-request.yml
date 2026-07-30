@@ -1,0 +1,48 @@
+name: Customization Request
+description: Request custom reducer, actuator, motor, interface, or control solution.
+title: "[Customization Request] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        SigGear supports drawing-based customization and application-specific robotic drive solutions.
+
+  - type: textarea
+    id: project
+    attributes:
+      label: Project description
+      placeholder: Describe the product, machine, or robot under development.
+    validations:
+      required: true
+
+  - type: textarea
+    id: customization
+    attributes:
+      label: Required customization
+      placeholder: Mechanical dimensions, mounting, shaft, encoder, driver, communication, firmware, or branding requirements.
+    validations:
+      required: true
+
+  - type: textarea
+    id: specifications
+    attributes:
+      label: Technical specifications
+      placeholder: Torque, speed, ratio, voltage, power, backlash, accuracy, lifetime, and operating conditions.
+
+  - type: input
+    id: timeline
+    attributes:
+      label: Project timeline
+      placeholder: Prototype date and mass production target
+
+  - type: input
+    id: quantity
+    attributes:
+      label: Estimated quantity
+      placeholder: Sample quantity and annual demand
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact information
+      placeholder: Email or preferred contact method
