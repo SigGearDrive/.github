@@ -1,0 +1,42 @@
+name: Gearbox Selection Request
+description: Request help selecting a reducer or actuator based on application requirements.
+title: "[Selection Request] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        SigGear engineers can help match reducer type, ratio, torque, speed, and integration requirements.
+
+  - type: textarea
+    id: application
+    attributes:
+      label: Application
+      placeholder: Describe your equipment or robot application.
+    validations:
+      required: true
+
+  - type: textarea
+    id: requirements
+    attributes:
+      label: Main technical requirements
+      placeholder: Torque, speed, precision, backlash, dimensions, weight, noise, lifetime, and environment.
+    validations:
+      required: true
+
+  - type: input
+    id: quantity
+    attributes:
+      label: Quantity
+      placeholder: Prototype quantity and expected production volume
+
+  - type: textarea
+    id: current_solution
+    attributes:
+      label: Current solution or reference product
+      placeholder: Existing supplier, competitor model, drawing, or datasheet if available.
+
+  - type: input
+    id: contact
+    attributes:
+      label: Contact information
+      placeholder: Email or preferred contact method
