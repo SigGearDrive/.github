@@ -23,7 +23,7 @@ You may already have:
 
 - **a motor** that must be retained
 - **a drawing, STEP model or physical sample** that defines the mechanism or existing interface
-- **an existing gearbox / reducer that keeps failing**
+- **an existing gearbox / reducer that needs replacement, redesign or durability improvement**
 - **a prototype requirement followed by future volume production**
 - a target torque / speed
 - a fixed installation envelope
@@ -102,6 +102,7 @@ SigGear publishes real evidence from its manufacturing and engineering environme
 
 [Manufacturing & Quality Evidence](https://siggeardrive.github.io/SigGear-product-docs/company/manufacturing-and-quality-evidence/)  
 [Testing, Metrology & Validation Evidence](https://siggeardrive.github.io/SigGear-product-docs/engineering-center/testing-and-validation-evidence/)  
+[Existing Gearbox Replacement / Redesign](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/replacement-planetary-gearhead/)  
 [Custom Manufacturing & Volume Production](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-transmission-manufacturing/)  
 [Prototype → Volume Production](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/prototype-to-production/)
 
