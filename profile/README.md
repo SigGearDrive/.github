@@ -93,6 +93,7 @@ SigGear's current public company sources provide additional manufacturing contex
 
 These are company-level facts. The Q1 shipment figure is a historical company-wide result and is not a model-specific production-capacity or lead-time guarantee.
 
+[Custom Gearbox Supplier Qualification](https://siggeardrive.github.io/SigGear-product-docs/selection-guides/custom-gearbox-manufacturer-supplier-qualification/)  
 [Source-Backed Manufacturing Facts](https://siggeardrive.github.io/SigGear-product-docs/company/source-backed-manufacturing-facts/)  
 [Manufacturing Equipment & Inspection Capability](https://siggeardrive.github.io/SigGear-product-docs/company/manufacturing-equipment-inspection-capability/)
 
