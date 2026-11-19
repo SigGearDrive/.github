@@ -22,7 +22,7 @@ A project does not need to begin with a SigGear model number.
 You may already have:
 
 - **a motor** that must be retained
-- **a drawing or CAD model** that defines the mechanism
+- **a drawing or STEP model** that defines the mechanism
 - **an existing gearbox / reducer that keeps failing**
 - **a prototype requirement followed by future volume production**
 - a target torque / speed
@@ -37,10 +37,10 @@ You may already have:
 
 SigGear can review, subject to engineering feasibility:
 
-- custom planetary gearheads
+- custom planetary gearboxes / gearheads
 - custom cycloidal reducers
 - robot joint modules and compact actuators
-- motor + gearhead integration
+- motor + gearbox / gearhead integration
 - customer-motor interface matching
 - reduction ratio
 - input pinion / shaft
@@ -56,14 +56,14 @@ Actual lead time, quantity and production plan are project-specific.
 
 ## Public Reference Products
 
-### Precision Planetary Gearheads | Ø8–42 mm
+### Precision Planetary Gearboxes | Ø8–42 mm
 
 12 public frame sizes:
 
 **8P · 10P · 12P · 14P · 16P · 20P · 22P · 24P · 28P · 32P · 36P · 42P**
 
-[Planetary Gearheads](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/)  
-[Datasheets / 2D Drawings / STEP CAD](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/)
+[Planetary Gearboxes](https://siggeardrive.github.io/SigGear-product-docs/products/planetary-gearboxes/)  
+[Datasheets / 2D Drawings / STEP Files](https://siggeardrive.github.io/SigGear-product-docs/engineering-resources/planetary-gearboxes/public-cad-release-v1/)
 
 ### Robot Joint Actuators
 
@@ -108,13 +108,13 @@ SigGear publishes real evidence from its manufacturing and engineering environme
 ## Engineering Repositories
 
 - [SigGear Product Documentation](https://github.com/SigGearDrive/SigGear-product-docs)
-- [SigGear CAD Models](https://github.com/SigGearDrive/SigGear-cad-models)
+- [SigGear STEP Models](https://github.com/SigGearDrive/SigGear-cad-models)
 - [SigGear Robot Joint SDK](https://github.com/SigGearDrive/SigGear-robot-joint-sdk)
 - [SigGear ROS2 Resources](https://github.com/SigGearDrive/SigGear-ros2)
 
 ## Confidential Projects
 
-Many custom programs cannot be published because they involve customer CAD, proprietary mechanisms, unreleased products or future production plans.
+Many custom programs cannot be published because they involve customer drawings / STEP models, proprietary mechanisms, unreleased products or future production plans.
 
 SigGear does not present confidential customer projects as public case studies. Public standard products, technical documents and real manufacturing evidence are used to show capabilities without exposing customer information.
 
