@@ -22,7 +22,7 @@ A project does not need to begin with a SigGear model number.
 You may already have:
 
 - **a motor** that must be retained
-- **a drawing or STEP model** that defines the mechanism
+- **a drawing, STEP model or physical sample** that defines the mechanism or existing interface
 - **an existing gearbox / reducer that keeps failing**
 - **a prototype requirement followed by future volume production**
 - a target torque / speed
@@ -31,7 +31,7 @@ You may already have:
 - a robot joint concept
 - an encoder / driver / communication requirement
 
-[**Start a Custom Transmission Review**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/start-with-your-problem/)
+[**Drawing / STEP / Sample Review**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/custom-gearbox-from-drawing-cad/) · [**Start a Custom Transmission Review**](https://siggeardrive.github.io/SigGear-product-docs/custom-engineering/start-with-your-problem/)
 
 ## Custom Engineering & Manufacturing
 
