@@ -81,6 +81,21 @@ Public cycloidal references include:
 
 [Cycloidal Joint Modules](https://siggeardrive.github.io/SigGear-product-docs/products/cycloidal-joint-modules/)
 
+## Source-Backed Manufacturing Scale
+
+SigGear's current public company sources provide additional manufacturing context:
+
+- **20,000+ m² standalone factory** — current 2025 company profile
+- **Q1 2025 shipments exceeded 550,000 units** — official company-news report
+- **200+ production and testing equipment units** — May 2025 official catalog figure
+- **20+ R&D / design personnel** — May 2025 official catalog figure
+- official custom-development flow includes **sample development, small-batch verification, mass production and delivery**
+
+These are company-level facts. The Q1 shipment figure is a historical company-wide result and is not a model-specific production-capacity or lead-time guarantee.
+
+[Source-Backed Manufacturing Facts](https://siggeardrive.github.io/SigGear-product-docs/company/source-backed-manufacturing-facts/)  
+[Manufacturing Equipment & Inspection Capability](https://siggeardrive.github.io/SigGear-product-docs/company/manufacturing-equipment-inspection-capability/)
+
 ## Manufacturing & Engineering Evidence
 
 SigGear publishes real evidence from its manufacturing and engineering environment, including machining, gear processing, assembly, inspection, metrology and testing resources.
